@@ -1,0 +1,29 @@
+{
+  "common"    : {
+    "appName"   : "Hello World App",
+    "fullLocale": "en-GB"
+  },
+  "action"    : {
+    "open"  : "Open",
+    "close" : "Close",
+    "abort" : "Abort",
+    "save"  : "Save",
+    "create": "Create",
+    "update": "Update",
+    "delete": "Delete"
+  },
+  "time"      : {
+    "seconds": "seconds",
+    "minutes": "minutes",
+    "hours"  : "hours"
+  },
+  "date"      : {
+    "days"  : "days",
+    "months": "months",
+    "years" : "years"
+  },
+  "navigation": {
+    "home" : "Home",
+    "about": "About"
+  }
+}

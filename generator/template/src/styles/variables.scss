@@ -1,0 +1,22 @@
+// Font @TODO define real variables and implement them
+$fontFamily: 'Roboto', sans-serif;
+$borderRadius: 4px;
+$fontSize: 16px;
+
+// Colors
+$colorLight: 'white';
+$colorDark: 'black';
+
+$colorPrimary: #eee;
+$colorSecondary: #aaa;
+
+:export {
+  fontFamily: $fontFamily;
+  borderRadius: $borderRadius;
+  fontSize: $fontSize;
+
+  colorLight: $colorLight;
+  colorDark: $colorDark;
+  colorPrimary: $colorPrimary;
+  colorSecondary: $colorSecondary;
+}
