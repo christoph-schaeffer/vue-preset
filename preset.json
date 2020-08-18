@@ -16,5 +16,19 @@
     "@vue/cli-plugin-unit-jest": {},
     "@vue/cli-plugin-e2e-nightwatch": {}
   },
-  "cssPreprocessor": "node-sass"
+  "cssPreprocessor": "node-sass",
+  "configs": {
+    "eslintConfig": {
+      "rules": {
+        "import/extensions": [
+          "error",
+          "always",
+          {
+            "js" : "never",
+            "vue": "never"
+          }
+        ]
+      }
+    }
+  }
 }
