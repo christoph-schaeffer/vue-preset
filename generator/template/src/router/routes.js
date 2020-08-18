@@ -1,5 +1,3 @@
-import i18n from '@/plugins/i18n';
-
 import Home from '@/views/Home';
 import About from '@/views/About';
 
