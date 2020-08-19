@@ -1,10 +1,6 @@
 {
   "useConfigFiles": true,
   "plugins": {
-    "vuetify": {},
-    "pug": {},
-    "vue-axios": {},
-    "vue-i18n": {},
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-pwa": {},
     "@vue/cli-plugin-router": {
