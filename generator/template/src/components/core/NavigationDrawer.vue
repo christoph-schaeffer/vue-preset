@@ -1,6 +1,6 @@
 <template lang="pug">
   v-navigation-drawer(app fixed
-    v-model="showDrawer" src="@/assets/drawerBackground.jpg" width="260px"
+  v-model="showDrawer" src="@/assets/drawerBackground.jpg" width="260px"
   )
     v-list
       v-list-item
@@ -14,7 +14,7 @@
       v-list-item-group(color="primary")
         v-list-item(v-for="(item, i) in items" :key="'nav-'+i"
           :to="{ name: item.name, params: item.navigationConfig.params }"
-          )
+        )
           v-list-item-icon
             v-icon {{item.navigationConfig.icon}}
           v-list-item-content
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import * as routes from '@/router/routes';
+import routes from '@/router/routes';
 
 export default {
   name: 'NavigationDrawer',
@@ -38,7 +38,7 @@ export default {
   },
   data() {
     return {
-      items: routes.filter(route => !!route.navigationConfig),
+      items: routes.filter((route) => !!route.navigationConfig),
     };
   },
   mounted() {

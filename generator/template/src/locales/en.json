@@ -23,7 +23,7 @@
     "years" : "years"
   },
   "navigation": {
-    "home" : "Home",
-    "about": "About"
+    "Home" : "Home",
+    "About": "About"
   }
 }
